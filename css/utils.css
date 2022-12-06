@@ -21,3 +21,11 @@ footer {
 .row {
     flex-direction: row;
 }
+
+.nowrap {
+	flex-wrap: nowrap;
+}
+
+.sparnd {
+	justify-content: space-around;
+}
