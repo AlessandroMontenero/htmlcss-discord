@@ -1,0 +1,23 @@
+/* Utils */
+
+.container {
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.ds-flex, 
+header,
+main,
+footer {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}

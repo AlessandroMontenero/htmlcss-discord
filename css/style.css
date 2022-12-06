@@ -1,0 +1,141 @@
+/* Header */
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+header {
+    min-height: 470px;
+    background-color: rgb(21, 0, 139);
+}
+
+header nav {
+    height: 60px;
+    background-color: rgb(177, 216, 229);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+header nav > .navbar {
+    background-color: rgb(213, 166, 38);
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.side {
+    width: calc(80%/4);
+}
+
+.navbar.side:last-of-type {
+    text-align: right;
+}
+
+.center {
+    width: calc(80%/2);
+    text-align: center;
+}
+
+header > .block {
+    width: 60%;
+    height: 300px;
+    background: rgb(234, 125, 239);
+    margin: auto;
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Main */
+
+main > section {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+ main section:nth-of-type(even) {
+    background-color: rgb(211, 211, 211) ;
+}
+
+.container {
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+
+.container > .block {
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    height: 100%;
+}
+
+.blue {
+    background-color: rgb(65, 141, 254);
+    width: 65%;
+}
+
+.salmon {
+    background-color: rgb(251, 191, 204);
+    width: 35%;
+}
+
+main section:last-of-type > .container {
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    height: 800px;
+    width: 80%;
+    background-color: rgb(46, 140, 32);
+    margin: 30px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(34, 39, 42);
+
+}
+
+footer section {
+    border-bottom: 2px solid white;
+}
+
+footer .container {
+    margin: 15px auto 30px;
+}
+
+footer .block:first-of-type {
+    width: calc(100%/3);
+    background-color: rgb(234, 127, 130);
+}
+
+footer .block {
+    background-color: rgb(60, 179, 169);
+    width: calc(100%/6);
+}
+
+footer nav {
+    height: 80px;
+    width: 80%;
+    margin: 20px auto 0;
+    background-color: rgb(140, 255, 211);
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer button {
+    padding: 5px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 2px;
+    background-color: rgb(234, 127, 130);
+
+}
